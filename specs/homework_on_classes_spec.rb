@@ -35,6 +35,19 @@ class TestClasses < MiniTest::Test
     assert_equal("G25",@student.get_cohort)
   end
 
+  #check student can speak (returns "Hello World")
+
+  def test_can_student_talk
+    assert_equal("Hello World",@student.say_hi)
+  end
+
+  #check students favourite language
+  def test_favourite_language
+    assert_equal("I love Ruby",@student.fav_lang("Ruby"))
+  end
+
+
+
 
 
 

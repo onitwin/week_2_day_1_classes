@@ -32,7 +32,7 @@ class Student
   end
 
   def fav_lang (favourite_language)
-    return "I love #{favourite_language}!!!"
+    return "I love #{favourite_language}"
   end
 
 end
